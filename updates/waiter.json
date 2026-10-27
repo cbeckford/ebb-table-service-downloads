@@ -1,15 +1,15 @@
 {
-  "versionName": "0.1.76-rc",
-  "schemaVersion": 1,
-  "versionCode": 77,
   "minSdk": 26,
-  "sha256": "ab9c8a535d7344294bd8a6193fb4692c00b8788a909af4d399841fc8d4259e55",
   "repository": "cbeckford/ebb-table-service-downloads",
-  "appId": "ebb-table-service",
-  "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff",
   "approved": true,
-  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v77-ab9c8a535d73/EBB-Table-Service.apk",
+  "notes": "EBB Table Service 0.1.77-rc\n\nEnvironment confirmation now asks only for an Approvers-group member and their PIN. No POS selection, cashier session, waiter sign-in or open session is required. The authenticated Odoo connection account determines the company scope.\n\nRequires the matching Odoo session-independent Environment approval update. Cashier-or-Approver authorization for waiter entry and Approvers-only authorization for protected order changes remain unchanged. In-place upgrades retain orders and saved Environment Settings.\n",
+  "appId": "ebb-table-service",
+  "versionName": "0.1.77-rc",
+  "sha256": "881eccd86d5bc99a8e4f252ad9c7da52f0f534a156ac55d72dd54e254b07403f",
   "packageName": "com.ebbinnovation.tableservice.test",
-  "notes": "EBB Table Service 0.1.76-rc\n\nApproval roles now follow the business policy explicitly: the selected POS session's cashier or an Approvers-group member can authorize a waiter joining that POS. Environment changes, privileged order changes and other supervisor actions require Approvers-group authorization. Cashiers do not need Approvers membership for their cashier duties.\n\nUpdated approval lists, PIN labels and explanations distinguish these roles. Requires the matching Odoo waiter approval-policy correction. Orders, saved Environment Settings and API keys are retained by an in-place upgrade.\n",
-  "bytes": 43347082
+  "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff",
+  "bytes": 43347082,
+  "schemaVersion": 1,
+  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v78-881eccd86d5b/EBB-Table-Service.apk",
+  "versionCode": 78
 }
