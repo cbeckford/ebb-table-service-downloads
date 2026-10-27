@@ -1,15 +1,15 @@
 {
-  "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff",
+  "versionName": "0.1.76-rc",
+  "schemaVersion": 1,
+  "versionCode": 77,
+  "minSdk": 26,
+  "sha256": "ab9c8a535d7344294bd8a6193fb4692c00b8788a909af4d399841fc8d4259e55",
   "repository": "cbeckford/ebb-table-service-downloads",
   "appId": "ebb-table-service",
-  "bytes": 43347082,
-  "versionCode": 76,
-  "minSdk": 26,
-  "sha256": "28f6e39068405debdd4cf02450f88e2210d1e618f1e1577fdabe001a865f30e9",
+  "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff",
   "approved": true,
-  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v76-28f6e3906840/EBB-Table-Service.apk",
-  "notes": "EBB Table Service 0.1.75-rc\n\nAdds collapsible Settings > Updates with background launch checks, dedicated APK-only GitHub distribution, approved downloads and Android installation. Updates require matching package, newer version, checksum and the existing installed signing certificate.\n\nSend to Kitchen and Send to Cashier remain visible on collapsed order cards in My Orders, Table Orders and Kitchen Pickups. Existing submission/ownership/locked-order rules still control whether each action is enabled.\n\nAdds search Reset, visible Skip remaining options, inline single secondary actions, and horizontal-first wrapping options. Appearance and Sounds includes tablet notification sounds, preview and optional vibration. Environment contains independently confirmed Test Kitchen Print and Test Kitchen Display actions using persistent test identities and explicit DO NOT PREPARE labelling.\r\n",
-  "schemaVersion": 1,
+  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v77-ab9c8a535d73/EBB-Table-Service.apk",
   "packageName": "com.ebbinnovation.tableservice.test",
-  "versionName": "0.1.75-rc"
+  "notes": "EBB Table Service 0.1.76-rc\n\nApproval roles now follow the business policy explicitly: the selected POS session's cashier or an Approvers-group member can authorize a waiter joining that POS. Environment changes, privileged order changes and other supervisor actions require Approvers-group authorization. Cashiers do not need Approvers membership for their cashier duties.\n\nUpdated approval lists, PIN labels and explanations distinguish these roles. Requires the matching Odoo waiter approval-policy correction. Orders, saved Environment Settings and API keys are retained by an in-place upgrade.\n",
+  "bytes": 43347082
 }
