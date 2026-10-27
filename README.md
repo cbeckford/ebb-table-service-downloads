@@ -1,0 +1,1 @@
+EBB Table Service APK downloads and update metadata only. No source code or credentials. Android verifies that updates match the installed application's signing certificate. Download/install require approval.
