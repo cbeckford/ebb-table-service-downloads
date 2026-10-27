@@ -1,15 +1,15 @@
 {
-  "minSdk": 26,
-  "repository": "cbeckford/ebb-table-service-downloads",
+  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v79-ff2c8fffb6c9/EBB-Table-Service.apk",
   "approved": true,
-  "notes": "EBB Table Service 0.1.77-rc\n\nEnvironment confirmation now asks only for an Approvers-group member and their PIN. No POS selection, cashier session, waiter sign-in or open session is required. The authenticated Odoo connection account determines the company scope.\n\nRequires the matching Odoo session-independent Environment approval update. Cashier-or-Approver authorization for waiter entry and Approvers-only authorization for protected order changes remain unchanged. In-place upgrades retain orders and saved Environment Settings.\n",
+  "bytes": 43363466,
   "appId": "ebb-table-service",
-  "versionName": "0.1.77-rc",
-  "sha256": "881eccd86d5bc99a8e4f252ad9c7da52f0f534a156ac55d72dd54e254b07403f",
+  "versionName": "0.1.78-rc",
+  "versionCode": 79,
   "packageName": "com.ebbinnovation.tableservice.test",
-  "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff",
-  "bytes": 43347082,
+  "sha256": "ff2c8fffb6c9910c51de10dcb7e580b35b578a7940b62ad6f4b35b82378813ee",
+  "repository": "cbeckford/ebb-table-service-downloads",
   "schemaVersion": 1,
-  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v78-881eccd86d5b/EBB-Table-Service.apk",
-  "versionCode": 78
+  "minSdk": 26,
+  "notes": "EBB Table Service 0.1.78-rc\n\nSelecting an Approver in Confirm Environment changes now focuses the Supervisor / approver PIN input automatically and requests the numeric keyboard. Confirm and save sits directly beside the PIN field, with Cancel remaining separate. Plain and Styled prompt appearance preferences are retained.\n\nNo new Odoo server update is required beyond the deployed POS-independent Environment approval support. In-place installation retains orders, production URLs and stored API keys.\n",
+  "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff"
 }
