@@ -1,15 +1,15 @@
 {
-  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v79-ff2c8fffb6c9/EBB-Table-Service.apk",
-  "approved": true,
-  "bytes": 43363466,
-  "appId": "ebb-table-service",
-  "versionName": "0.1.78-rc",
-  "versionCode": 79,
-  "packageName": "com.ebbinnovation.tableservice.test",
-  "sha256": "ff2c8fffb6c9910c51de10dcb7e580b35b578a7940b62ad6f4b35b82378813ee",
+  "versionCode": 80,
   "repository": "cbeckford/ebb-table-service-downloads",
-  "schemaVersion": 1,
+  "appId": "ebb-table-service",
   "minSdk": 26,
-  "notes": "EBB Table Service 0.1.78-rc\n\nSelecting an Approver in Confirm Environment changes now focuses the Supervisor / approver PIN input automatically and requests the numeric keyboard. Confirm and save sits directly beside the PIN field, with Cancel remaining separate. Plain and Styled prompt appearance preferences are retained.\n\nNo new Odoo server update is required beyond the deployed POS-independent Environment approval support. In-place installation retains orders, production URLs and stored API keys.\n",
-  "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff"
+  "packageName": "com.ebbinnovation.tableservice.test",
+  "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff",
+  "versionName": "0.1.79-rc",
+  "schemaVersion": 1,
+  "sha256": "3becf99547a09c68e433fd262a5f575a8d65b31e2f78d48dee4070ef45e57429",
+  "approved": true,
+  "bytes": 44947722,
+  "notes": "EBB Table Service 0.1.79-rc (build 80)\n\n- Header lock button and Garden Hotel green-and-gold lock screen with the current user's name.\n- Unlock requires the locking user's PIN through Odoo; lock survives reopening the app. Odoo connectivity is required to unlock.\n- Appearance and Sounds: configurable Garden Hotel or EBB header logo.\n- + Item consistently uses prominent primary-action styling, including expanded My Orders cards.\n- Compact Send to Kitchen / Send to Cashier actions on eligible order cards; Pickup Now for matching ready tickets.\n- Portrait and landscape lock form with clear input contrast.\n\nExisting orders, Environment Settings, pairing and connection credentials are preserved. Same application package and signing certificate. Installation requires user approval and restarts the app.\n\nValidation: 22 unit tests and eight emulator presentation checks passed. No production tablet installation is performed by publishing this release.\n",
+  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v80-3becf99547a0/EBB-Table-Service.apk"
 }
