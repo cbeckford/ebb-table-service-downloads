@@ -1,15 +1,15 @@
 {
-  "versionCode": 80,
-  "repository": "cbeckford/ebb-table-service-downloads",
+  "schemaVersion": 1,
+  "bytes": 44947718,
   "appId": "ebb-table-service",
   "minSdk": 26,
+  "notes": "EBB Table Service 0.1.80-rc (build 81)\n\nFloor-map order counts, retaining the original layout and sizing:\n- Blue circle at top-left: orders not yet sent to kitchen or cashier.\n- Black circle at top-right: orders sent to kitchen but not cashier.\n- Dark-green circle at bottom-right: orders sent/queued to cashier, including paid orders.\n- Zero counts are hidden; cancelled/deleted and other-session orders are excluded.\n- Each order counts once. Counts use orders saved on this tablet for the current session; they do not download other tablets' unsynced orders.\n- No added legend or map padding; original map geometry and controls preserved.\n\nExisting settings, orders and signing identity are retained. Includes build 80 lock screen, branding and compact order actions. Download and installation require approval. Publishing does not install or restart any tablet.\n\nValidation: 28 unit tests and portrait/landscape floor-count checks passed. Restaurant preview verified in the isolated emulator using local floor geometry and synthetic order counts.\n",
   "packageName": "com.ebbinnovation.tableservice.test",
+  "versionCode": 81,
+  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v81-94e661429619/EBB-Table-Service.apk",
+  "versionName": "0.1.80-rc",
+  "repository": "cbeckford/ebb-table-service-downloads",
   "signerSha256": "7041f175b5db8d729ab1f3292955bd0a6746d97fd48e9e1c7f55dbb81354baff",
-  "versionName": "0.1.79-rc",
-  "schemaVersion": 1,
-  "sha256": "3becf99547a09c68e433fd262a5f575a8d65b31e2f78d48dee4070ef45e57429",
-  "approved": true,
-  "bytes": 44947722,
-  "notes": "EBB Table Service 0.1.79-rc (build 80)\n\n- Header lock button and Garden Hotel green-and-gold lock screen with the current user's name.\n- Unlock requires the locking user's PIN through Odoo; lock survives reopening the app. Odoo connectivity is required to unlock.\n- Appearance and Sounds: configurable Garden Hotel or EBB header logo.\n- + Item consistently uses prominent primary-action styling, including expanded My Orders cards.\n- Compact Send to Kitchen / Send to Cashier actions on eligible order cards; Pickup Now for matching ready tickets.\n- Portrait and landscape lock form with clear input contrast.\n\nExisting orders, Environment Settings, pairing and connection credentials are preserved. Same application package and signing certificate. Installation requires user approval and restarts the app.\n\nValidation: 22 unit tests and eight emulator presentation checks passed. No production tablet installation is performed by publishing this release.\n",
-  "apkUrl": "https://github.com/cbeckford/ebb-table-service-downloads/releases/download/waiter-v80-3becf99547a0/EBB-Table-Service.apk"
+  "sha256": "94e66142961930066eaff0149f1d1e5a4ad789c33eff1849fc485f26def805a5",
+  "approved": true
 }
